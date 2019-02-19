@@ -1,4 +1,4 @@
-#reactjs-progressabar-linear
+#reactjs-progressbar-hexagonal
 
 [![npm]
 (https://img.shields.io/npm/v/reactjs-progressbar-hexagonal.svg?style=flat)]
