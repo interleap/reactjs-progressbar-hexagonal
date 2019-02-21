@@ -25,8 +25,10 @@ const styles = () => ({
     value : {
         fill : "#fff",
         fontSize : "14rem"
+    }, 
+    root: {
+      display: "inline"
     }
-    
 })
 
 
@@ -36,7 +38,7 @@ class HexagonalProgressBar extends Component {
     render() {
         const {classes} = this.props;
         return (
-                <div>
+                <div className={classes.root}>
                     <svg className={classes.progress} viewBox="0 0 776 628">
                     <path className={classes.track} d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
                     <path className={classes.fill} style={{strokeDashoffset: this.setStrokeDashoffset(this.props.progress) }} d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
